@@ -1,0 +1,136 @@
+@charset "UTF-8";
+/* CSS Document created by Robert Griffin, February 8, 2017 */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Times New Roman, serif, sans-serif;
+	font-size: 15px;
+	line-height: 1.4em;
+	color: #F4F3FF;
+	background-color: #4E9BFF;
+	padding: 0 30px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.13em;
+	padding: 0 40px;
+}
+h1 {
+	font-size: 26px;
+	padding: 0 40px;
+	letter-spacing: .2em;
+	line-height: 1.5em;
+	margin: 0;
+}
+h2 {
+	font-size: 22px;
+	padding: 40px;
+	font-variant: normal;
+	letter-spacing: 0.2em;
+	font-style: oblique;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #FFCB8E;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #FFFF8E;
+	text-decoration: line-through;
+}
+a:hover {
+	color: #CCBC2A;
+	text-decoration: underline;
+}
+
+/* list styles ----------------------------- */
+ul {
+	margin-left: 60px;
+}
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+	padding-left: 0px;
+}
+ol {
+	margin-left: 60px;
+}
+ol li {
+	padding-left: 0px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #B0BADB 2px;
+}
+td {
+	padding: 6px;
+	border: solid #B0BADB 2px;
+}
+th {
+	font-weight: bold;
+	background-color: #999938;
+	text-align: center;
+	padding: 12px;
+	border: solid #999933 3px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #B0BADB 2px;
+}
+
+img {
+	border: solid #B0BADB 2px;
+
+}
+iframe {
+	border: solid #B0BADB 2px;
+	padding: 4px;
+	margin: 1px;
+}
+/* DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #9B88FF;
+	overflow: hidden;
+}
+#header{
+	width: 100%;
+	background-color: #95BCFF;
+	border-bottom: 1px;
+}
+#content{	
+	width: 600px;
+	float: left;
+}
+#sidebar{
+	width: 280px;
+	float: left;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+#sidebar p{
+	padding: 10px;
+	background: #95BCFF;
+	box-shadow: 10px 10px 5px #888;
+}
+#footer{	
+	width: 100%;
+	background-color: #95BCFF;
+	border-top: 1px;
+	padding: 40px 0;
+	clear: both;
+}
+#footer p{
+	margin: 0;
+}
+
+
